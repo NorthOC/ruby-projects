@@ -1,0 +1,1 @@
+My training projects for the Ruby course on The Odin Project
