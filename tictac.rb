@@ -69,7 +69,7 @@ class Grid
       answer = gets.chomp
       ending(answer)
     elsif testing(player)
-      puts "#{player.name} wins! Try again (y/n)?"
+      print "#{player.name} wins! Try again (y/n)?"
       answer = gets.chomp
       ending(answer)
     end
