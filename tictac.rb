@@ -15,7 +15,7 @@ class Grid
   def initialize
     @arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     @coin = true
-    puts 'Welcome to tic tac toe cunt'
+    puts 'Welcome to tic tac toe!'
     print 'Player1 name: '
     name = gets.chomp
     @player1 = Player.new(name, 'X')
