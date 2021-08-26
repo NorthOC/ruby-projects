@@ -93,7 +93,6 @@ class Grid
     else
       print "ERROR: Answer with a \"y\" or \"n\": "
       answer = gets.chomp
-      puts answer
       ending(answer)
     end
   end
