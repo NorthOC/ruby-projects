@@ -91,7 +91,7 @@ class Grid
     elsif answer == 'n'
       exit(0)
     else
-      puts "ERROR: Answer with a \"y\" or \"n\": "
+      print "ERROR: Answer with a \"y\" or \"n\": "
       answer = gets.chomp
       puts answer
       ending(answer)
