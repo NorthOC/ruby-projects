@@ -28,8 +28,6 @@ class RobotCreate
   end
 
   def test_guess(guess)
-    print @guess.reverse
-    print @random_selection
     if @guess.reverse == @random_selection
       you_win(true)
     else
