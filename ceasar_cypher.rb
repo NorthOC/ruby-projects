@@ -5,7 +5,7 @@ def cypher (sentence, number = 0)
     end
     arr = sentence.split("")
     arr.each do |c|
-            if (c =~ /\W/)
+            if (c =~ /\W/) || c.to_i.to_s == c
                 new_string << c
             elsif c.ord < 91 and (c.ord + number) >= 91
                 new_string << (c.ord + number - 26)
@@ -17,4 +17,5 @@ def cypher (sentence, number = 0)
         end
         new_string
     end
-puts cypher("We are The worlZ!", 20)
+p cypher("aGZP123", 27)
+
